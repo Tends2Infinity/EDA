@@ -35,6 +35,9 @@ print('There are {} duplicate records in Users'.format(users_dup))
 # Check for the missing values in the DataFrames
 print(Orders.shape)
 
-
 #orders_missing = Orders.isnull().sum()
 #print(orders_missing)
+
+# identify the data types for each of the attributes
+# Check for the outliers
+# Check for Co-relations between various numerical attributes
